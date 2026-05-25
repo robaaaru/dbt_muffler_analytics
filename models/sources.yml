@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: muffler_shop
+    database: muffler_shop
+    schema: public
+    tables:
+      - name: transactions
+      - name: orders
+      - name: services
+      - name: motors
